@@ -39,15 +39,15 @@ docker-compose up -d --build
 
 1. Проверка работы PHP
 
-![Проверка PHP](screenshots/01_php_screen.png)
+![Проверка PHP](Лабораторная%20работа%20№2/screenshots/01_php_screen.png)
 
 2. Создание HTML-формы
 
-![Структура HTML-формы](screenshots/02_php_registration.png)
+![Структура HTML-формы](Лабораторная%20работа%20№2/screenshots/02_php_registration.png)
 
 3. Обработка формы на JavaScript
 
-![Форма с JS-обработкой](screenshots/02_php_registration_js.png)
+![Форма с JS-обработкой](Лабораторная%20работа%20№2/screenshots/02_php_registration_js.png)
 
 ✅ Результат
 Инфраструктура в Docker развёрнута. Nginx корректно обрабатывает статику и PHP-скрипты. Интерактивная форма на JavaScript работает согласно заданию.
