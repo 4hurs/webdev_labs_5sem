@@ -23,15 +23,15 @@
         <p>
             <label for="course_select">Выберите курс:</label><br>
             <select id="course_select" name="course" required>
-                <option value="webdev">Веб-разработка</option>
-                <option value="python">Python</option>            </select>
+                <option value="Веб">Веб-разработка</option>
+                <option value="Питон">Python</option>            </select>
         </p>
 
         <fieldset>
             <legend>Форма оплаты:</legend>
-            <input type="radio" id="payment_full" name="payment" value="full" checked>
-            <label for="payment_full">Картой онлайн</label><br>
-            <input type="radio" id="payment_installment" name="payment" value="installment">
+            <input type="radio" id="payment_online" name="payment" value="Картой онлайн" checked>
+            <label for="payment_online">Картой онлайн</label><br>
+            <input type="radio" id="payment_installment" name="payment" value="Рассрочка">
             <label for="payment_installment">Рассрочка</label><br>        </fieldset>
 
         <p>
@@ -43,6 +43,28 @@
         
     </form>
     
-   
+    <div id="result"></div> 
+
+    <script>
+        document.getElementById("course-form").addEventListener("submit", function(e) {
+            // 1. Предотвращаем стандартную отправку формы
+            e.preventDefault();
+
+            // 2. Собираем все данные из формы в один объект
+            const data = new FormData(e.target);
+
+            // 3. Находим div для вывода результата
+            const resultDiv = document.getElementById("result");
+
+            resultDiv.innerHTML = `<h2>✅ Регистрация прошла успешно!</h2>
+                <p><b>Имя:</b> ${data.get('full_name')}</p>
+                <p><b>Возраст:</b> ${data.get('age')} лет</p>
+                <p><b>Выбранный курс:</b> ${data.get('course')}</p>
+                <p><b>Форма оплаты:</b> ${data.get('payment')}</p>
+                <p><b>Сертификат:</b> ${data.get('certificate') ? 'Да, получить сертификат' : 'Нет'}</p>`;
+            
+            e.target.reset();
+        });
+    </script>
 </body>
 </html>
