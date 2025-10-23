@@ -1,0 +1,13 @@
+{
+    "name": "my-project/api-demo",
+    "description": "Demo project with Composer and API",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fawst"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "*"
+    }
+}
