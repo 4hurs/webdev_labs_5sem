@@ -10,6 +10,7 @@ setcookie('age', '', time() - 3600);
 setcookie('course', '', time() - 3600);
 setcookie('payment', '', time() - 3600);
 setcookie('certificate', '', time() - 3600);
+setcookie('last_submission', '', time() - 3600, "/");
 
 // Перенаправляем на главную
 header("Location: index.php");
