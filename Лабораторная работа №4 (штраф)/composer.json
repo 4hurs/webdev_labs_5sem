@@ -1,0 +1,12 @@
+{
+    "name": "webdev/course-registration",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "ApiClient.php",
+            "UserInfo.php"
+        ]
+    }
+}
