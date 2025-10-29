@@ -15,8 +15,11 @@ $_SESSION['course'] = $course;
 $_SESSION['payment'] = $payment;
 $_SESSION['certificate'] = $certificate;
 
+// Сохраняем данные в файл data.txt
+$line = $full_name . ";" . $age . ";" . $course . ";" . $payment . ";" . $certificate . ";" . date('Y-m-d H:i:s') . "\n";
+file_put_contents("data.txt", $line, FILE_APPEND);
+
 // Перенаправляем обратно на главную страницу
 header("Location: index.php");
 exit();
 ?>
-[file content end]
