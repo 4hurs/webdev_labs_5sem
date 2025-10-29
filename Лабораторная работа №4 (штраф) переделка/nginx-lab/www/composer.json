@@ -1,0 +1,6 @@
+{
+    "name": "lab4/course-registration",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}

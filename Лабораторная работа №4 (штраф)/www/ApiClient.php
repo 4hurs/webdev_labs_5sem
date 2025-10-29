@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 use GuzzleHttp\Client;
 
 class ApiClient {
@@ -17,9 +17,5 @@ class ApiClient {
         } catch (\Exception $e) {
             return ['error' => $e->getMessage()];
         }
-    }
-
-    public function getRandomUsers(int $count = 1): array {
-        return $this->request("https://randomuser.me/api/?results={$count}");
     }
 }
