@@ -51,13 +51,13 @@
 ### 1. Структура таблицы в Adminer
 Таблица `online_courses` была создана в базе данных `lab5_db` с помощью SQL-запроса через веб-интерфейс Adminer.
 
-![Структура таблицы](screenshots/table_structure.png)
+![Структура таблицы](Лабораторная работа №5/screenshots/table_structure.png)
 *Структура таблицы `online_courses` в Adminer*
 
 ### 2. Вывод данных из MySQL на главной странице
 Главная страница `index.php` теперь напрямую читает данные из таблицы `online_courses` и отображает их в виде отформатированной таблицы.
 
-![Вывод из БД](screenshots/php-mysql.png)
+![Вывод из БД](Лабораторная работа №5/screenshots/php-mysql.png)
 *Все заявки, полученные из базы данных MySQL*
 
 
