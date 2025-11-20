@@ -1,0 +1,36 @@
+[
+    {
+        "title": "PHP",
+        "content": "jr",
+        "author": "\u0410\u0432\u0442\u043e\u0440 \u0440\u0430\u0431\u043e\u0442\u044b",
+        "tags": [
+            "php",
+            "api",
+            "kafka"
+        ],
+        "category": "",
+        "id": "691f4eb834d5e",
+        "created_at": "2025-11-20 17:24:08"
+    },
+    {
+        "id": "691f5b1255c59",
+        "title": "Kafka",
+        "content": "\u041f\u0440\u0438\u0432\u0435\u0442!!!",
+        "author": "\u0410\u0432\u0442\u043e\u0440 \u0440\u0430\u0431\u043e\u0442\u044b",
+        "created_at": "2025-11-20 18:16:50"
+    },
+    {
+        "id": "691f7bfb893d6",
+        "title": "Kafka",
+        "content": "\u041f\u0440\u0438\u0432\u0435\u0442!!! \u0422\u0443\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435.",
+        "author": "\u041a\u0440\u0443\u0442\u043e\u0439 \u0430\u0432\u0442\u043e\u0440",
+        "created_at": "2025-11-20 20:37:15"
+    },
+    {
+        "id": "691f7bfc8a389",
+        "title": "another post",
+        "content": "hmmmm",
+        "author": "mmm",
+        "created_at": "2025-11-20 20:37:16"
+    }
+]
