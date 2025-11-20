@@ -1,0 +1,10 @@
+{
+    "require": {
+        "nmred/kafka-php": "^0.2.0"
+    },
+    "autoload": {
+        "files": [
+            "QueueManager.php"
+        ]
+    }
+}
